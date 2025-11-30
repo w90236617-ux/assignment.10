@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* 1st section */
+.box1{
+    width: 100px;
+    height: 100px;
+   background-color: green;
+   
+   display: inline-table;
+   
+}
+.box2{
+    width: 100px;
+    height: 100px;
+  background-color: #1B3C53;
+   display: inline-table;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+   background-color: #f0f;
+   display: inline-table;
+}
+.box4{
+
+    width: 100px;
+    height: 100px;
+   background-color: rgb(150, 200, 100);
+   display: inline-table;
+
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(200, 60%, 50%);
+    display: inline-table;    
+}
+/* 2nd section */
+.bannerbox{
+    width: 250px;
+    height: 250px;
+    background-image: url(./images/download\ \(1\).jpeg);
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 3rd secion */
+.gradientbox{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(rgb(147, 147, 175), rgb(53, 63, 176));
+    color: hsl(41, 100%, 83%);
+    border: 3px;
+    border-color: rgba(41, 100%, 83%,);
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+
+}
+.gradientbox button{
+    background: radial-gradient(rgb(228, 228, 235),rgb(91, 158, 207));
+    border-radius: 5px;
+    border: 1px;
+    border-style: solid;
+}
